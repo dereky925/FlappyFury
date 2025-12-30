@@ -8,6 +8,12 @@ A Flappy Bird-inspired game featuring the Anduril Fury stealth drone! Navigate t
 
 ## 🎮 Play the Game
 
+### Mobile/Desktop
+Go to:
+```
+https://dereky925.github.io/FlappyFury/
+```
+
 ### Online
 Simply open `index.html` in any modern web browser - no server required!
 
