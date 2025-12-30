@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>Flappy Fury</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div id="ui-overlay">
+            <div id="title-screen" class="screen active">
+                <h1 class="game-title">FLAPPY<br>FURY</h1>
+                <div class="fury-icon"></div>
+                <button id="start-btn" class="pixel-btn">START</button>
+                <p class="instructions">TAP or SPACE to fly</p>
+            </div>
+            <div id="game-over-screen" class="screen">
+                <h2 class="game-over-title">GAME OVER</h2>
+                <div class="score-panel">
+                    <div class="medal-section">
+                        <span class="label">MEDAL</span>
+                        <div id="medal" class="medal"></div>
+                    </div>
+                    <div class="score-section">
+                        <div class="score-row">
+                            <span class="label">SCORE</span>
+                            <span id="final-score" class="score-value">0</span>
+                        </div>
+                        <div class="score-row">
+                            <span id="new-best" class="new-badge hidden">NEW</span>
+                            <span class="label">BEST</span>
+                            <span id="best-score" class="score-value">0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="button-row">
+                    <button id="play-btn" class="pixel-btn">PLAY</button>
+                    <button id="share-btn" class="pixel-btn">SHARE</button>
+                </div>
+            </div>
+        </div>
+        <div id="score-display">0</div>
+        <div id="sound-toggle" class="sound-on">🔊</div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
+
