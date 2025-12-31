@@ -1,6 +1,6 @@
 # Flappy Fury 🛩️
 
-A Flappy Bird-inspired game featuring the Anduril Fury stealth drone! Navigate through obstacles, survive as long as you can, and beat your high score.
+A Flappy Bird-inspired game featuring the Anduril Fury collaborative combat aircraft! Navigate through obstacles, survive as long as you can, and beat your high score.
 
 ![Flappy Fury](https://img.shields.io/badge/Game-Flappy%20Fury-blue?style=for-the-badge)
 ![HTML5](https://img.shields.io/badge/HTML5-Canvas-orange?style=flat-square)
@@ -9,7 +9,7 @@ A Flappy Bird-inspired game featuring the Anduril Fury stealth drone! Navigate t
 ## 🎮 Play the Game
 
 ### Mobile/Desktop
-Go to:
+Go to the link:
 ```
 https://dereky925.github.io/FlappyFury/
 ```
