@@ -1,5 +1,9 @@
 # Flappy Fury 🛩️
 
+<img width="494" height="747" alt="image" src="https://github.com/user-attachments/assets/e6bc413a-8d00-4086-94e1-471a2c5a301a" />
+
+
+
 A Flappy Bird-inspired game featuring the Anduril Fury collaborative combat aircraft! Navigate through obstacles, survive as long as you can, and beat your high score.
 
 ![Flappy Fury](https://img.shields.io/badge/Game-Flappy%20Fury-blue?style=for-the-badge)
